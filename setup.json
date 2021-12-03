@@ -1,0 +1,28 @@
+{
+    "random_state" : 44,
+
+
+    "file_path_test" : "/content/Enternet_ABSA_test.csv",
+    "file_path_train" : "/content/Enternet_ABSA_train.csv",
+    
+
+    "model" : "bert",
+    "model_name" : "bert-base-uncased",
+
+
+    "epochs" : 20,
+    "lr" : 1e-5,
+    "max_sen_length" : 312,
+    "num_labels" : 3,
+    "train_batch_size" : 16,
+    "test_batch_size" : 32,
+
+    
+    "min_delta" : 1e-3,
+    "patience" : 4,
+
+
+    "num_workers" : 2,
+
+    "checkpoint_path": "./checkpoints/" 
+}
